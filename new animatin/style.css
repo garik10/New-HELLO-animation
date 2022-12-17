@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background: #000;
+}
+
+.leftcolumnH {
+    width: 40px;
+    height: 40px;
+    background: rgb(204, 255, 0);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 40px;
+    animation-name: leftcolumnH;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes leftcolumnH {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+    }
+
+
+
+
+}
+
+.rowcolumnH {
+    width: 40px;
+    height: 40px;
+    background: rgb(204, 255, 0);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 40px;
+    animation-name: rowcolumnH;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes rowcolumnH {
+    100% {
+        width: 150px;
+    }
+}
+
+.rightcolumnH {
+    width: 40px;
+    height: 40px;
+    background: rgb(204, 255, 0);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 150px;
+    animation-name: rightcolumnH;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes rightcolumnH {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+        visibility: visible;
+    }
+}
+
+.leftcolumnE {
+    width: 40px;
+    height: 40px;
+    background: rgb(4, 0, 255);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 220px;
+    animation-name: leftcolumnE;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes leftcolumnE {
+    100% {
+        top: calc(50vh - 150px);
+        height: 300px;
+        visibility: visible;
+    }
+}
+
+.lefttopE {
+    width: 40px;
+    height: 40px;
+    background: rgb(4, 0, 255);
+    position: absolute;
+    top: calc(29.3vh - 20px);
+    left: 220px;
+    animation-name: lefttopE;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes lefttopE {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.leftcenterE {
+    width: 40px;
+    height: 40px;
+    background: rgb(4, 0, 255);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 220px;
+    animation-name: leftcenterE;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes leftcenterE {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.leftbootmE {
+    width: 40px;
+    height: 40px;
+    background: rgb(4, 0, 255);
+    position: absolute;
+    top: calc(70.9vh - 20px);
+    left: 220px;
+    animation-name: leftbootmE;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+
+}
+
+@keyframes leftbootmE {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.leftcolumnL {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: rgb(0, 242, 255);
+    top: calc(50vh - 20px);
+    left: 400px;
+    animation-name: leftcolumnL;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes leftcolumnL {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+        visibility: visible;
+    }
+}
+
+.leftbootmL {
+    width: 40px;
+    height: 40px;
+    background: rgb(0, 242, 255);
+    position: absolute;
+    top: calc(70.9vh - 20px);
+    left: 400px;
+    animation-name: leftbootmL;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes leftbootmL {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.leftbootmL2 {
+    width: 40px;
+    height: 40px;
+    background: rgb(195, 0, 255);
+    position: absolute;
+    top: calc(70.9vh - 20px);
+    left: 580px;
+    animation-name: leftbootmL2;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes leftbootmL2 {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.leftcolumnL2 {
+    width: 40px;
+    height: 40px;
+    background: rgb(195, 0, 255);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 580px;
+    animation-name: leftcolumnL2;
+    animation-duration: 1s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes leftcolumnL2 {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+        visibility: visible;
+    }
+}
+
+.leftcolumnO {
+
+    width: 40px;
+    height: 40px;
+    background: rgb(1, 68, 14);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 760px;
+    animation-name: leftcolumnO;
+    animation-duration: 1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes leftcolumnO {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+        visibility: visible;
+
+
+    }
+}
+
+.rightcolumnO {
+    width: 40px;
+    height: 40px;
+    background: rgb(1, 68, 14);
+    position: absolute;
+    top: calc(50vh - 20px);
+    left: 880px;
+    animation-name: rightcolumnO;
+    animation-duration: 1s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes rightcolumnO {
+    100% {
+        height: 300px;
+        top: calc(50vh - 150px);
+        visibility: visible;
+
+    }
+}
+
+.topcolumnO {
+    width: 40px;
+    height: 40px;
+    background: rgb(1, 68, 14);
+    position: absolute;
+    top: calc(29.3vh - 20px);
+    left: 760px;
+    animation-name: topcolumnO;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes topcolumnO {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
+
+.bootmcolumnO {
+    width: 40px;
+    height: 40px;
+    background: rgb(1, 68, 14);
+    position: absolute;
+    top: calc(70.9vh - 20px);
+    left: 760px;
+    animation-name: bootmcolumnO;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+
+}
+
+@keyframes bootmcolumnO {
+    100% {
+        width: 150px;
+        visibility: visible;
+    }
+}
